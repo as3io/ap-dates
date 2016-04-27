@@ -1,0 +1,20 @@
+{
+    "name": "as3/ap-dates",
+    "license": "MIT",
+    "type": "library",
+    "description": "Formats dates according to the Associated Press (AP) style guide.",
+    "authors": [
+        {
+            "name": "Jacob Bare",
+            "email": "jacob.bare@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "As3\\ApDates\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4",
+    }
+}
